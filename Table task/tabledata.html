@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table data</title>
+    <link rel="stylesheet" href="./tabledata.css">
+</head>
+<body>
+
+    <div class="section">
+        <div class="container">
+
+                <input type="search" id="input" onkeyup="sort()" placeholder="Search by product Here">
+                <!-- <input type="submit" value="search" onclick="sort()"> -->
+                <button type="submit" class="btn" onclick="sort()">sort</button>
+
+
+            <div class="table">
+                <table id='myTableId' border="1px" cellspacing="0"
+                 cellpadding="20px">
+                    <thead>
+                        <th>SL No</th>
+                        <th>Product Name</th>
+                        <th>color</th>
+                        <th>price</th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>Total : </th>
+                            <th id="totalPrice"></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./data.js"></script>
+
+</body>
+</html>

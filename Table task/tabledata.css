@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#myForm{
+    text-align: center;
+    margin: 20px;
+}
+#input{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px ;
+    color: gray;
+}
+.btn{
+    height: 35px;
+    width: 90px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(124, 134, 221);
+    color: white;
+    border: solid gray 1px;
+    border-radius: 6px;
+}
+
+.table{
+    /* padding: 5%; */
+    position: absolute;
+    left: 29%;
+    top: 80px;
+
+}
+#myTableId{
+
+}
+table{
+    text-align: center;
+}
+th{
+    padding: 8px;
+    background-color: rgb(131, 131, 131);
+    color: white;
+}
+td{
+    padding: 3px;
+}
+
+
